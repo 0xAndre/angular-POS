@@ -1,13 +1,13 @@
-<app-side  *ngIf="!isDesktopDevice" products="{{selectedProducts | json}}" (notifyDelete)="delete($event)"></app-side>
+<app-side  *ngIf="isDesktopDevice" products="{{selectedProducts | json}}" (notifyDelete)="delete($event)"></app-side>
 
-<div  *ngIf="!isDesktopDevice" class="all">
+<div  *ngIf="isDesktopDevice" class="all">
     <section class="cards" *ngFor="let product of filteredProducts">
         <app-card category="{{product.category}}" product="{{product.name}}" price="{{product.price}}" image="{{product.image}}" (notify)='onNotify($event)'></app-card>
     </section>
 </div>
 
 
-<footer  *ngIf="!isDesktopDevice">
+<footer  *ngIf="isDesktopDevice">
     <li id="categories" *ngFor="let category of categories">
 
         <ul *ngIf="category.active" class="category active" (click)="SelectProducts(category.selector)">
@@ -30,4 +30,4 @@
     </li>
 </footer>
 
-<div *ngIf="isDesktopDevice">POS not working on Mobile devices! Please try it on Desktop!</div>
+<div *ngIf="!isDesktopDevice">POS not working on Mobile devices! Please try it on Desktop!</div>
