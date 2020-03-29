@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Expresso",
+        "category": "Coffee",
+        "image": "https://img.icons8.com/offices/30/000000/espresso-cup.png",
+        "price": 1
+    },
+    {
+        "name": "Capuccino",
+        "category": "Coffee",
+        "image": "https://img.icons8.com/color/30/000000/coffee-script.png",
+        "price": 1.2
+    },
+    {
+        "name": "Macchiato",
+        "category": "Coffee",
+        "image": "https://img.icons8.com/officel/30/000000/coffee--v2.png",
+        "price": 1.5
+    },
+    {
+        "name": "Latte",
+        "category": "Coffee",
+        "image": "https://img.icons8.com/plasticine/30/000000/coffee-to-go.png",
+        "price": 2.5
+    },
+    {
+        "name": "Moka",
+        "category": "Coffee",
+        "image": "https://img.icons8.com/plasticine/30/000000/moka-pot.png",
+        "price": 2.5
+    },
+    {
+        "name": "Irish Coffee",
+        "category": "Coffee",
+        "image": "https://img.icons8.com/dusk/30/000000/coffee.png",
+        "price": 1.8
+    },
+    {
+        "name": "Neapolitan",
+        "category": "Italian",
+        "image": "https://img.icons8.com/doodle/30/000000/pizza--v1.png",
+        "price": 7
+    },
+    {
+        "name": "Sicilian",
+        "category": "Italian",
+        "image": "https://img.icons8.com/doodle/30/000000/pizza--v1.png",
+        "price": 8
+    },
+    {
+        "name": "Greek",
+        "category": "Italian",
+        "image": "https://img.icons8.com/doodle/30/000000/pizza--v1.png",
+        "price": 7.8
+    },
+    {
+        "name": "Detroit",
+        "category": "Italian",
+        "image": "https://img.icons8.com/doodle/30/000000/pizza--v1.png",
+        "price": 7.5
+    },
+    {
+        "name": "Margherita",
+        "category": "Italian",
+        "image": "https://img.icons8.com/doodle/30/000000/pizza--v1.png",
+        "price": 5
+    },
+    {
+        "name": "Carbonara",
+        "category": "Italian",
+        "image": "https://img.icons8.com/officel/30/000000/spaghetti.png",
+        "price": 9
+    },
+    {
+        "name": "Lasagne",
+        "category": "Italian",
+        "image": "https://img.icons8.com/officel/30/000000/spaghetti.png",
+        "price": 8.5
+    },
+    {
+        "name": "Ravioli",
+        "category": "Italian",
+        "image": "https://img.icons8.com/officel/30/000000/spaghetti.png",
+        "price": 8.5
+    },
+    {
+        "name": "Feijoada",
+        "category": "Portuguese",
+        "image": "https://img.icons8.com/dusk/30/000000/tableware.png",
+        "price": 7
+    },
+    {
+        "name": "Bacalhau",
+        "category": "Portuguese",
+        "image": "https://img.icons8.com/dusk/30/000000/tableware.png",
+        "price": 7
+    },
+    {
+        "name": "Francesinha",
+        "category": "Portuguese",
+        "image": "https://img.icons8.com/dusk/30/000000/tableware.png",
+        "price": 7
+    },
+    {
+        "name": "Caldeirada",
+        "category": "Portuguese",
+        "image": "https://img.icons8.com/dusk/30/000000/tableware.png",
+        "price": 7
+    },
+    {
+        "name": "Sardinhas",
+        "category": "Portuguese",
+        "image": "https://img.icons8.com/dusk/30/000000/tableware.png",
+        "price": 5
+    },
+    {
+        "name": "Marisco",
+        "category": "Portuguese",
+        "image": "https://img.icons8.com/dusk/30/000000/tableware.png",
+        "price": 10
+    }
+]
