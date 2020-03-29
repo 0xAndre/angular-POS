@@ -1,0 +1,43 @@
+.card {
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    color: #212529;
+    z-index: -2;
+}
+
+.title {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product {
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+.price {
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card:hover {
+    position: relative;
+    background-color: #F8F9FC;
+    color: #596278;
+    z-index: 0;
+}

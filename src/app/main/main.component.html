@@ -1,0 +1,33 @@
+<app-side  *ngIf="!isDesktopDevice" products="{{selectedProducts | json}}" (notifyDelete)="delete($event)"></app-side>
+
+<div  *ngIf="!isDesktopDevice" class="all">
+    <section class="cards" *ngFor="let product of filteredProducts">
+        <app-card category="{{product.category}}" product="{{product.name}}" price="{{product.price}}" image="{{product.image}}" (notify)='onNotify($event)'></app-card>
+    </section>
+</div>
+
+
+<footer  *ngIf="!isDesktopDevice">
+    <li id="categories" *ngFor="let category of categories">
+
+        <ul *ngIf="category.active" class="category active" (click)="SelectProducts(category.selector)">
+            {{category.name}}
+        </ul>
+
+        <ul *ngIf="!category.active" class="category" (click)="SelectProducts(category.selector)">
+            {{category.name}}
+        </ul>
+
+    </li>
+
+
+    <li class="author">
+        <ul>
+            made with
+            <img alt="love" src="https://icongr.am/octicons/heart.svg?size=12&color=7F0000" /> by
+            <a href="https://github.com/x0uter" target="_blank">André</a>
+        </ul>
+    </li>
+</footer>
+
+<div *ngIf="isDesktopDevice">POS not working on Mobile devices! Please try it on Desktop!</div>

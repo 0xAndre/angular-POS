@@ -1,0 +1,41 @@
+.pay {
+    background-color: #B2BACE;
+    position: fixed;
+    bottom: 0;
+    margin: 15px;
+    width: 380px;
+    height: 60px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.pay:hover {
+    background-color: #DBE0EB;
+}
+
+.label {
+    position: absolute;
+    color: #212529;
+    font-size: 25px;
+    margin-top: 17px;
+    margin-left: 20px;
+    font-weight: 900;
+}
+
+.price {
+    float: right;
+    margin-top: 17px;
+    margin-right: 20px;
+}
+
+.value {
+    font-size: 25px;
+}
+
+.precision {
+    font-size: 20px;
+}
+
+.euro {
+    font-size: 25px;
+}

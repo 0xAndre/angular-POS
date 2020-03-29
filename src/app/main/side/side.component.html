@@ -1,0 +1,7 @@
+<section class="side">
+    <app-employee></app-employee>
+    <div *ngFor="let product of products">
+        <app-product name={{product.name}} quantity={{product.quantity}} price={{product.price}} (notifyDelete)="delete($event)"></app-product>
+    </div>
+    <app-pay totalPrice={{totalPrice}}></app-pay>
+</section>

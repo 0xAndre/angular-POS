@@ -1,0 +1,26 @@
+.employee {
+    color: #fff;
+    border-bottom: #B2BACE solid 1px;
+}
+
+.name {
+    margin-left: 100px;
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+.job {
+    margin-left: 100px;
+    margin-top: -20px;
+    font-size: 15px;
+    color: #B2BACE;
+    padding-bottom: 30px;
+}
+
+.avatar {
+    width: 50px;
+    border-radius: 40px;
+    position: absolute;
+    margin-left: 30px;
+    border: #B2BACE solid 4px;
+}

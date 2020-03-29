@@ -1,0 +1,8 @@
+<div class="products">
+    <div class="product">
+        <div class="quantity">{{quantity}}</div>
+        <div class="totalprice">{{price * quantity | number}}€ <span class="delete" (click)="delete(name)"><img src="https://icongr.am/feather/trash-2.svg?size=20&color=FFFFFF"></span> </div>
+        <p class="name">{{name}}</p>
+        <p class="parcialprice">{{price}}€</p>       
+    </div>
+</div>
