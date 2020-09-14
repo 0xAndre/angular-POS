@@ -10,7 +10,7 @@ TRY IT [HERE](https://x0uter.github.io/angular-POS/).
 ## Features
 
  - Add Product to Sell List
- - Remove Product to Sell List
+ - Remove Product from Sell List
 
 ## Run
 
