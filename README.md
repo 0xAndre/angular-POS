@@ -3,7 +3,7 @@
 Example of Point of Sale (POS) using Angular.
 This works 100% client-side, statically hosted on GitHub pages.
 
-TRY IT [HERE](https://x0uter.github.io/angular-POS/).
+TRY IT [HERE](https://andresantos.pt/pos/).
 
 ![demo](https://raw.githubusercontent.com/x0uter/angular-POS/master/src/assets/demo.gif)
 
